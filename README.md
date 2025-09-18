@@ -34,7 +34,7 @@
 ## ⚙️ Setup & Installation
 ### 1. Clone the Repo 
 ```bash 
-git clone https://github.com/yourusername/code-doc-helper.git
+git clone https://github.com/sudheersivakumar/code-doc-helper.git
 cd code-doc-helper
 ```
 
