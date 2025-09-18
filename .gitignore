@@ -1,0 +1,72 @@
+# ==============================
+# Code Documentation Helper
+# ==============================
+
+# Environment variables
+.env
+.env.local
+
+# Python virtual environment
+venv/
+env/
+.venv/
+
+# Python cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.ipynb_checkpoints/
+
+# ChromaDB local storage (generated automatically)
+chroma_db/
+
+# Streamlit cache & config
+.streamlit/
+.cache/
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.sublime-project
+*.sublime-workspace
+
+# Project-specific
+data/uploaded_code/      # Temp uploaded files from Streamlit UI
+data/codebase/           # Optional: ignore if you don't want sample code tracked
+                             # Uncomment above if you want users to add their own code
+
+# Ignore local config
+config.local.json
+local_settings.py
+
+# Backup files
+*~
+*.bak
+*.tmp
+
+# Jupyter Notebook checkpoint files
+.ipynb_checkpoints/
+
+# macOS metadata
+._*
+
+# Windows thumbnail cache
+Thumbs.db

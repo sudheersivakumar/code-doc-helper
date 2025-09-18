@@ -1,0 +1,27 @@
+code-doc-helper/
+│
+├── .env                          # Environment variables (Gemini API key, etc.)
+├── main.py                       # Main app entry point (CLI or simple web UI later)
+├── README.md                     # Project overview
+├── requirements.txt              # Python dependencies
+│
+├── src/
+│   ├── __init__.py
+│   ├── ingest.py                 # Code/documentation ingestion into ChromaDB
+│   ├── query.py                  # Handle user queries + retrieval + Gemini generation
+│   ├── rag_pipeline.py           # Core RAG + CRAG correction logic
+│   └── utils.py                  # Helper functions (chunking, embedding, etc.)
+│
+├── data/
+│   └── codebase/                 # Place your source code or docs here for ingestion
+│       ├── your_project/
+│       │   ├── file1.py
+│       │   ├── file2.js
+│       │   └── README.md
+│       └── ... 
+│
+├── chroma_db/                    # Local ChromaDB storage (auto-created)
+│   └── ... 
+│
+└── logs/                         # Optional: for logging queries/responses
+    └── app.log
