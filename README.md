@@ -23,14 +23,14 @@
 - 🎨 Beautiful Streamlit UI — Drag, drop, ask, done.
 - 📁 Auto-Skips Noise — Ignores `node_modules`, `__pycache__`, `.git`, etc.
 ## 🛠️ Tech Stack
-<pre>|Component   |Technology                                              |
+|Component   |Technology                                              |
 |------------|--------------------------------------------------------|
 |LLM         |Google Gemini 1.5 Flash                                 |
 |Embeddings  |sentence-transformers/all-MiniLM-L6-v2 (Local)          |
 |Vector DB   |ChromaDB                                                |
 |UI Framework|Streamlit                                               |
 |Correction  |Custom CRAG-inspired logic                              |
-|Lang Support|Python, JS, TS, Java, Go, Rust, C/C++, configs, Markdown|</pre>
+|Lang Support|Python, JS, TS, Java, Go, Rust, C/C++, configs, Markdown|
 ## ⚙️ Setup & Installation
 ### 1. Clone the Repo 
 ```bash 
